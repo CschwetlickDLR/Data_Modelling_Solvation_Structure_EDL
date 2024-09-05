@@ -15,7 +15,7 @@ Inside the files the following data can be found:
   loopvariablename -- contains a String of the variable looped over
   loopvalues -- contains an array length _N_ of all values loopvariable takes in the simulations
   output -- only relevant for the simulation code
-  params -- contains all parameters used in the simulation (the units are found in "Parameters_File.txt")
+  params -- contains all parameters used in the simulation (the units are found in "Parameter_File.txt")
       length -- cutoff length (distance from bulk)
       E_start -- electric field in the bulk
       R -- physical const.
