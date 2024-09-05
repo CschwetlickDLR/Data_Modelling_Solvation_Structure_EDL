@@ -38,3 +38,9 @@ Inside the files the following data can be found:
       E -- the local electric field
       rho -- the local charge density
       c_1,c_2,c_3 -- the local concentrations of the three species
+
+Info on the looped runs:
+  dilution -- this modifies params.c3_start via the formula params.c3_start=loopvalues(i)/(params.nu2+params.nu3);
+  beta2 -- this modifies both params.beta2 and params.beta3 in equal measure
+  nu3 -- to only consider ionic asymmetry, this modifies params.nu2 as well to keep the total salt size constant using the formula temp=params.nu3; // params.nu3 = loopvalues(i); // params.nu2=params.nu2+temp-loopvalues(i);
+  c3_start -- this only modifies params.c3_start
