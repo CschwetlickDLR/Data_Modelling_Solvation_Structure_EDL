@@ -44,3 +44,9 @@ Info on the looped runs:
   beta2 -- this modifies both params.beta2 and params.beta3 in equal measure
   nu3 -- to only consider ionic asymmetry, this modifies params.nu2 as well to keep the total salt size constant using the formula temp=params.nu3; // params.nu3 = loopvalues(i); // params.nu2=params.nu2+temp-loopvalues(i);
   c3_start -- this only modifies params.c3_start
+
+How to create EDL cross sections from the data:
+  1. choose an electrode - bulk electrolyte voltage
+  2. in the relevant simulation, find the index j of the closest value in solution(i).phi, or linearly interpolate
+  3. calculate the distance from the electrode by subtracting x from the value solution(i).x(j)
+  4. cut off the other data at j
