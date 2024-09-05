@@ -1,0 +1,44 @@
+% Simulation parameters
+length = 5e-7 % m
+E_start= 0.01 % V/m
+J0 = 100 % A/m2
+
+% Physical constants
+R  = 8.31446 % J/mol/K
+T  = 298.15  % K
+F  = 96485   % C/mol
+e0 = 8.85419e-12 % C/V/m
+
+% External Parameters
+c3_start = 1000 % mol/m3 
+
+% Material Parameters
+epsilon= 50
+t3 = 0.5
+kappa = 1e-4 % A/V/m
+
+%  charge numbers
+z1 = 0
+z2 = -1
+z3 = 1
+
+%  molar masses
+M1 = 116 % g/mol
+M2 = 142 % g/mol
+M3 = 35 % g/mol
+
+%  partial molar volumes
+nu1 = 5e-5 % m3/mol
+nu2 = 5e-5 % m3/mol
+nu3 = 5e-5 % m3/mol
+
+%  solvation parameters (solvent=1)
+beta2 = -4 % no unit, binding energy/RT
+beta3 = -4 % no unit, binding energy/RT
+lambda2m = 4 % coordination number
+lambda3m = 4 % coordination number
+
+% do not insert whitespaces in numbers; if errors likely, check params struct
+
+
+
