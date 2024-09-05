@@ -1,4 +1,4 @@
-This repository contains the simulation data for " Modelling Solvation Structure in the Electrochemical Double Layer" by C. Schwetlick, M. Schammer, A. Latz & B. Horstmann.
+This repository contains the simulation data for "Modelling Solvation Structure in the Electrochemical Double Layer" by C. Schwetlick, M. Schammer, A. Latz & B. Horstmann.
 
 The data found here are Matlab workspace saves. The results of the simulations used for the plots and general results in the paper are contained in these. 
 
